@@ -2,13 +2,14 @@
   float: right;
   width: 480px;
   padding: 20px;
-  margin: 20px 20px 20px -80px;
+  margin: 20px 20px 20px -100px;
   position: relative;
-  left: 120px;
+  left: 150px;
   border: 2px solid #d6d6d6;
 }
 
 .home__school-image {
+  margin-top: 80px;
   width: 960px;
   position: relative;
   left: -130px;
@@ -22,6 +23,7 @@
 
 .home__attribution {
   text-align: center;
+  margin-top: 80px;
 
   table {
     margin: 0 auto;
