@@ -47,11 +47,12 @@
     "node-sass": "^3.4.2",
     "nodemon": "^1.8.1",
     "picturefill": "^3.0.1",
+    "rimraf": "^2.5.1",
     "validate.js": "^0.9.0",
     "webpack": "1.x"
   },
   "scripts": {
-    "reset": "rm -rf public _source-node5 && mkdir public _source-node5",
+    "reset": "rimraf -rf public _source-node5 && mkdir public _source-node5",
     "build:css": "node-sass --output-style expanded -o public source/client/css/style.scss",
     "build:js": "webpack",
     "build:img": "gulp",
