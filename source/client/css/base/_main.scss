@@ -13,6 +13,10 @@ body {
   }
 }
 
+strong {
+  font-weight: 600;
+}
+
 .clearfix:after {
   content:" ";
   display:block;

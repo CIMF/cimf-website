@@ -1,0 +1,29 @@
+.home__important-date {
+  float: right;
+  width: 480px;
+  padding: 20px;
+  margin: 20px 20px 20px -80px;
+  position: relative;
+  left: 120px;
+  border: 2px solid #d6d6d6;
+}
+
+.home__content {
+  h5 {
+    text-align: center;
+  }
+}
+
+.home__attribution {
+  text-align: center;
+
+  table {
+    margin: 0 auto;
+  }
+
+  td {
+    text-align: center;
+    border: none;
+    min-width: 350px;
+  }
+}
