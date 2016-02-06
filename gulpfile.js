@@ -79,10 +79,17 @@ gulp.task('default', () => {
     }))
     .pipe(gulp.dest('public/img/logo'));
 
+  const header_bg = gulp.src('source/client/img/header-bg/**/*.{png,jpg,jpeg}')
+    // .pipe(imageResize({
+    //   width: 1980,
+    // }))
+    .pipe(gulp.dest('public/img/header-bg'));
+
   return es.merge(
     es.merge(x1_200, x2_200, x1_300, x2_300).pipe(gulp.dest('public/img')),
     es.merge(cim_x1_600, cim_x2_600).pipe(gulp.dest('public/img/cim-img')),
     gulp.src('source/client/img/misc/**/*.{png,jpg,jpeg}').pipe(gulp.dest('public/img/misc')),
-    logo
+    logo,
+    header_bg
   ).pipe(print());
 });
