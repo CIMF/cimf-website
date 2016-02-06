@@ -21,6 +21,9 @@ $header-bg: (
       background: url(#{$url}) center center / cover no-repeat black;
     }
   }
+  &.header--faculty-detail {
+    background: url(map-get($header-bg, 'faculty')) center center / cover no-repeat black;
+  }
   @include respond-to-larger-than-tablet {
     height: 380px;
   }
