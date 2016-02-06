@@ -1,15 +1,17 @@
 <% include ./_head.ejs %>
 <% include ./_navbar.ejs %>
 
-<header class="header">
-  <div class="header__bg"></div>
-  <div class="header__content">
+<header class="header header--<%= page_name %> header--not-home">
+  <div class="header__v-pos">
     <div class="container">
       <h1 class="header__title"><%= config.page_title %></h1>
     </div>
   </div>
 </header>
 
-<article class="article <%= page_name %>"><%- article %></article>
+<article class="article article--<%= page_name %> article__not-home">
+  <a class="a-call-to-action" href="/cn/apply">立即申请</a>
+  <%- article %>
+</article>
 
 <% include ./_foot.ejs %>

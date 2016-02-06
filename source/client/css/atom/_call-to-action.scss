@@ -1,0 +1,25 @@
+.a-call-to-action {
+  border: 2px solid #0E3A7B;
+  display: block;
+  padding: 10px 0;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #0E3A7B;
+  border-radius: 8px;
+  transition: color 300ms, background-color 300ms;
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+  &:hover {
+    color: white;
+    background-color: #0E3A7B;
+  }
+  &.a-call-to-action--white {
+    color: white;
+    border-color: white;
+    &:hover {
+      color: black;
+      background-color: white;
+    }
+  }
+}

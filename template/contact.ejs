@@ -1,9 +1,8 @@
 <% include ./_head.ejs %>
 <% include ./_navbar.ejs %>
 
-<header class="header">
-  <div class="header__bg"></div>
-  <div class="header__content">
+<header class="header header--<%= page_name %> header--not-home">
+  <div class="header__v-pos">
     <div class="container">
       <h1 class="header__title"><%= i18n.__('Contact Us') %></h1>
     </div>
@@ -11,19 +10,23 @@
 </header>
 
 <section class="content">
-  <%- article %>
-  <form method="post" action="/submit-form" id="contact-form">
-    <label for="name"><%= i18n.__('Your name') %></label>
-    <label for="name" class="form__error-label"><%= i18n.__('Name cannot be empty') %></label>
-    <input class="u-full-width" type="text" id="name" name="name" required>
-    <label for="email"><%= i18n.__('Your email') %></label>
-    <label for="email" class="form__error-label"><%= i18n.__('Email must be a valid email address') %></label>
-    <input class="u-full-width" type="email" placeholder="example@email.com" id="email" name="email" required>
-    <label for="message"><%= i18n.__('Message') %></label>
-    <label for="message" class="form__error-label"><%= i18n.__('Message cannot be empty') %></label>
-    <textarea class="u-full-width" placeholder="<%= i18n.__('message...') %>" id="message" name="message" required></textarea>
-    <button class="button-primary" type="submit"><%= i18n.__('Submit') %></button>
-  </form>
+  <div class="one-half column">
+    <form method="post" action="/submit-form" id="contact-form">
+      <label for="name"><%= i18n.__('Your name') %></label>
+      <label for="name" class="form__error-label"><%= i18n.__('Name cannot be empty') %></label>
+      <input class="u-full-width" type="text" id="name" name="name" required>
+      <label for="email"><%= i18n.__('Your email') %></label>
+      <label for="email" class="form__error-label"><%= i18n.__('Email must be a valid email address') %></label>
+      <input class="u-full-width" type="email" placeholder="example@email.com" id="email" name="email" required>
+      <label for="message"><%= i18n.__('Message') %></label>
+      <label for="message" class="form__error-label"><%= i18n.__('Message cannot be empty') %></label>
+      <textarea class="u-full-width" placeholder="<%= i18n.__('message...') %>" id="message" name="message" required></textarea>
+      <button class="button-primary" type="submit"><%= i18n.__('Submit') %></button>
+    </form>
+  </div>
+  <div class="one-half column">
+    <%- article %>
+  </div>
 </section>
 
 <% include ./_foot.ejs %>

@@ -1,0 +1,52 @@
+.home__important-date {
+  border-bottom: 2px solid #d6d6d6;
+  margin-bottom: 20px;
+  @include respond-to-larger-than-tablet {
+    border: 2px solid #d6d6d6;
+    float: right;
+    width: 50%;
+    padding: 20px 20px 10px;
+    margin: 20px 0 20px 20px;
+    position: relative;
+    top: -10px;
+    h5 {
+      margin-bottom: 10px;
+    }
+    ul {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.home__school-img {
+  max-width: 100%;
+  margin-bottom: 10px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  &.home__school-img--desktop {
+    display: none;
+    @include respond-to-larger-than-tablet {
+      margin-bottom: 80px;
+      display: block;
+    }
+  }
+  @include respond-to-larger-than-tablet {
+    display: none;
+  }
+}
+
+.home__attribution {
+  text-align: center;
+  @include respond-to-larger-than-tablet {
+    margin-bottom: 40px;
+  }
+}
+
+.home__attribution-left,
+.home__attribution-right {
+  @include respond-to-larger-than-tablet {
+    float: left;
+    width: 50%;
+  }
+}

@@ -9,7 +9,7 @@
 
 ***
 
-##### **克利夫兰国际音乐节艺术顾问：** 
+##### **克利夫兰国际音乐节艺术顾问：**
 Kathryn Brown，HaeSun Paik，Dean Southern
 
 ***
@@ -20,18 +20,3 @@ Kathryn Brown，HaeSun Paik，Dean Southern
 ![CIM Front Entrance](/img/cim-img/cim-front-entrance.jpg)
 ![CIM Mixon Hall 01](/img/cim-img/mixon-hall-01.jpg)
 ![CIM Mixon Hall 03](/img/cim-img/mixon-hall-03.jpg)
-
-***
-
-##### **克利夫兰国际音乐节主办方：**
-- 慕萨国际文化传播 ![Mousa Logo](/img/logo/mousa-logo.png)
-
-##### **克利夫兰国际音乐节协办方：**
-- 克利夫兰音乐学院 ![CIM Logo](/img/logo/cim-logo.jpg)
-- 凯斯西储大学 ![Case logo](/img/logo/case-logo.jpg)
-
-[**点击下载音乐节官方宣传手册**](http://static.cimfusa.com/pdf/cimf-brochure-cn.pdf)
-
-**_关注官方微信平台：克利夫兰国际音乐节_**
-
-![WeChat QR Code](/img/misc/wechat-qr-code.jpg)

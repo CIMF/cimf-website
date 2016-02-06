@@ -17,5 +17,6 @@
 	"CIM": "场地介绍",
 	"Regulation": "规章条例",
 	"Contact": "联系我们",
-	"Cleveland International Music Festival": "克利夫兰国际音乐节"
+	"Cleveland International Music Festival": "克利夫兰国际音乐节",
+	"Cleveland International Music Festival logo": "Cleveland International Music Festival logo"
 }
