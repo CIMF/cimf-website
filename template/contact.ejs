@@ -1,9 +1,8 @@
 <% include ./_head.ejs %>
 <% include ./_navbar.ejs %>
 
-<header class="header">
-  <div class="header__bg"></div>
-  <div class="header__content">
+<header class="header header--<%= page_name %> header--not-home">
+  <div class="header__v-pos">
     <div class="container">
       <h1 class="header__title"><%= i18n.__('Contact Us') %></h1>
     </div>

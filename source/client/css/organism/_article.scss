@@ -2,16 +2,22 @@
   @extend .container;
   margin-top: 40px;
   margin-bottom: 50px;
-  // max-width: 700px;
 
-  .call-to-action {
+  &.article__not-home {
+    margin-top: 40px;
+  }
+
+  .a-call-to-action {
     margin-bottom: 40px;
   }
 
-  &.article__home {
+  &.article--article__apply {
+    .a-call-to-action {
+      display: none;
+    }
   }
 
-  &.article__faculty {
+  &.article--article__faculty {
     text-align: center;
     ul {
       @extend .clearfix;
@@ -28,13 +34,17 @@
     }
   }
 
-  &.article__faculty-detail {
-    p:first-child, h2 {
+  &.article--article__faculty-detail {
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+    h2 {
       text-align: center;
     }
   }
 
-  &.article__cim {
+  &.article--article__cim {
     img {
       display: block;
       margin: 10px auto;
