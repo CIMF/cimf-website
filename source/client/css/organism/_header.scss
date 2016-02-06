@@ -36,7 +36,7 @@
   .header--home &,
   .header--welcome & {
     position: relative;
-    margin-top: 125px;
+    margin-top: 90px;
     text-align: center;
   }
 }
@@ -56,6 +56,42 @@
       margin-top: 20px;
       font-size: 5.0rem;
     }
+  }
+}
+
+.header__call-to-action {
+  border: 2px solid white;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  border-radius: 8px;
+  transition: color 300ms, background-color 300ms;
+  width: 200px;
+  &:hover {
+    color: black;
+    background-color: white;
+  }
+}
+
+.call-to-action {
+  border: 2px solid #0E3A7B;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #0E3A7B;
+  border-radius: 8px;
+  transition: color 300ms, background-color 300ms;
+
+  display: block;
+  margin: 40px auto 0;
+  width: 200px;
+  text-align: center;
+
+  &:hover {
+    color: white;
+    background-color: #0E3A7B;
   }
 }
 
