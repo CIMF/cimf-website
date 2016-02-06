@@ -11,13 +11,13 @@
     margin-bottom: 40px;
   }
 
-  &.article--article__apply {
+  &.article--apply {
     .a-call-to-action {
       display: none;
     }
   }
 
-  &.article--article__faculty {
+  &.article--faculty {
     text-align: center;
     ul {
       @extend .clearfix;
@@ -34,7 +34,7 @@
     }
   }
 
-  &.article--article__faculty-detail {
+  &.article--faculty-detail {
     img {
       display: block;
       margin: 0 auto;
@@ -44,7 +44,7 @@
     }
   }
 
-  &.article--article__cim {
+  &.article--cim {
     img {
       display: block;
       margin: 10px auto;

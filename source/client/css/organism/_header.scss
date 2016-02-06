@@ -1,15 +1,26 @@
 $header-bg: (
-  home: 'http://static.cimfusa.com/img/content-header-bg.jpg',
+  home: 'http://static.cimfusa.com/img/header-bg/home.jpg',
+  activity: 'http://static.cimfusa.com/img/header-bg/activity.jpg',
+  apply: 'http://static.cimfusa.com/img/header-bg/apply.jpg',
+  contact: 'http://static.cimfusa.com/img/header-bg/contact.jpg',
+  faculty: 'http://static.cimfusa.com/img/header-bg/faculty.jpg',
+  competition: 'http://static.cimfusa.com/img/header-bg/competition.jpg',
+  regulation: 'http://static.cimfusa.com/img/header-bg/regulation.jpg',
+  cim: 'http://static.cimfusa.com/img/header-bg/cim.jpg',
 );
 
 .header {
   position: relative;
   height: 300px;
   z-index: map-get($z-indexes, 'header');
-  background: url(map-get($header-bg, 'home')) center center / cover no-repeat black;
   overflow: hidden;
   color: white;
   padding-top: 100px;
+  @each $name, $url in $header-bg {
+    &.header--#{$name} {
+      background: url(#{$url}) center center / cover no-repeat black;
+    }
+  }
   @include respond-to-larger-than-tablet {
     height: 380px;
   }

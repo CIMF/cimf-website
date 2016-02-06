@@ -64,7 +64,7 @@ contentRouter.get('/:page', function* (next) {
       break;
   }
 
-  locals.page_name = `article__${ this.params.page }`;
+  locals.page_name = this.params.page;
 
   yield this.render('content', locals);
 });
@@ -74,7 +74,7 @@ contentRouter.get('/faculty/:name', function* (next) {
 
   locals.article = locals.article.replace(/(<img) src="(\/img\/.+?)\.(\w+?)(")/g, `$1 srcset="${ this.CDN }$2-300-@1x.$3 1x,${ this.CDN }$2-300-@2x.$3 2x"`);
 
-  locals.page_name = 'article__faculty-detail';
+  locals.page_name = 'faculty-detail';
 
   yield this.render('content', locals);
 });
