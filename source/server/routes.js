@@ -16,17 +16,9 @@ rootRouter.post('/submit-form', submitForm);
 const contentRouter = createRouter();
 
 contentRouter.get('/', function *(next) {
-  const locals = yield getLocals('cn/home.md');
-
-  locals.article = locals.article.replace(
-    /(<img) src="(\/img\/cim-img\/.+?)\.(\w+?)"/g,
-    `$1 srcset="${this.CDN}$2@1x.$3 1x,${this.CDN}$2@2x.$3 2x"`);
-
-  locals.article = locals.article.replace(
-    /(<img) src="(\/img\/logo\/.+?)\.(\w+?)"/g,
-    `$1 src="${this.CDN}$2.$3"`);
-
-  locals.page_name = 'home';
+  const locals = {
+    page_name: 'home',
+  };
 
   yield this.render('home', locals);
 });
