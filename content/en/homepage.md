@@ -10,7 +10,7 @@ The 1st Cleveland International Music Festival will be held from July 29th, 2016
 Kathryn Brown, Haesun Paik, Dean Southern
 
 ##### **Important Dates:**
-- **Cleveland International Music Festival:** July 29th-August 6th, 2016
+- **Cleveland International Music Festival:** July 29th to August 6th, 2016
 - **Application Deadline:** May 30th, 2016
 - **Tuition Deadline:** June 15th, 2016
 
