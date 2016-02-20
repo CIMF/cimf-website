@@ -11,7 +11,7 @@ page_title: Apply
 - **Ages and Qualifications:** Students studying piano, string and voice, age between15 and 25 are eligible to apply. Students under age 17 should be accompanied by parents or guardians. Students under age 15 with outstanding professional performance may apply for admission upon special approval. 
 
 - **Application Method:** 
-  - a. Download the [CIMF Application Form](. 
+  - a. Download the [CIMF Application Form](http://static.cimfusa.com/pdf/application-en-version.pdf)
   - b. Upload your audition video or audio recording to YouTube. 
   - c. Send the application form together with the YouTube link to apply@cimfusa.com. Acceptance will be based on your application, recommendation and submitted recording. 
 
