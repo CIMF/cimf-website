@@ -36,6 +36,7 @@ The number of prizes awarded is at the jurors’ discretion.
 #### Competition Rules: 
 * Competition schedule will be determined by lots that contestants draw before the preliminary.
 * Memorization is required for all competition categories.  
+* Contestants may use the same piece for preliminary round and final round.
 * Contestants must provide two copies of their audition piece (solo part and piano reduction score) for the jurors. 
 * At the discretion of the jurors, contestant’s performance may be interrupted or subjected to time restrictions.
 * Parents, teachers, and friends are invited and encouraged to attend the Competition.
