@@ -10,15 +10,15 @@ Students who attend the Cleveland International Music Festival are eligible ONLY
 ***
 
 #### Competitive Categories and Audition Requirements:
-* Preliminary Round: (Limited 10 minutes per contestant)
-    * Piano - one solo work or one movement of sonata of your choice; 
-    * String - one solo work of your choice excluding for sonatas;
+* Preliminary Round:
+    * Piano - one solo piece of your choice;(Minimum 8 minutes, maximum 10 minutes per contestant)
+    * String - one solo piece of your choice excluding sonatas;(Minimum 8 minutes, maximum 10 minutes per contestant)
     * Voice - one aria or art song in any language 
 
-* Winners’ Recitals: Selected contestants from preliminary round will be perform on the final winners’ recitals, Saturday – August 5, 2016, Kulas Hall and Mixon Hall at the Cleveland Institute of Music. (Limited 15 minutes per contestant)
-    * Piano - one solo work or sonata of your own choice; 
-    * String - one solo work of your own choice except for sonatas;
-    * Voice - one aria or art song in any language 
+* Winners’ Recitals: Selected contestants from preliminary round will be perform on the final winners’ recitals, Saturday – August 5, 2016, Kulas Hall and Mixon Hall at the Cleveland Institute of Music. 
+    * Piano - one or two solo pieces of your own choice;(Minimum 13 minutes, maximum 15 minutes per contestant)
+    * String - one or two solo pieces of your own choice except sonatas;(Minimum 13 minutes, maximum 15 minutes per contestant)
+    * Voice - two aria or art songs in any language 
 
 ***
 
