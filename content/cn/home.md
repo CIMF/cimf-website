@@ -17,7 +17,7 @@
 
 **克利夫兰国际音乐节协办方：**
 - 克利夫兰音乐学院 ![CIM Logo](/img/logo/cim-logo.jpg)
-- 凯斯西储大学 ![Case logo](/img/logo/case-logo.jpg)
+- 凯斯西储大学 ![Case logo](/img/logo/case-logo.png)
 
 **克利夫兰国际音乐节艺术顾问：** Kathryn Brown，HaeSun Paik，Dean Southern
 
