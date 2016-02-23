@@ -16,5 +16,9 @@
 	"Apply": "Apply",
 	"CIM": "CIM",
 	"Regulation": "Regulation",
-	"Contact": "Contact"
+	"Contact": "Contact",
+	"Cleveland International Music Festival logo": "Cleveland International Music Festival logo",
+	"Cleveland International Music Festival": "Cleveland International Music Festival",
+	"立即申请": "立即申请",
+	"Apply Now": "Apply Now"
 }

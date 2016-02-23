@@ -6,9 +6,7 @@ import submitForm from './routes/submit-form';
 const rootRouter = createRouter();
 
 rootRouter.get('/', function *(next) {
-  this.redirect('/cn');
-  // Temporary disable /en
-  // yield this.render('index', {});
+  yield this.render('index', {});
 });
 
 rootRouter.post('/submit-form', submitForm);
@@ -20,7 +18,7 @@ contentRouter.get('/', function *(next) {
     page_name: 'home',
   };
 
-  yield this.render('home', locals);
+  yield this.render(`home-${this.basePath}`, locals);
 });
 
 contentRouter.get('/contact', function *() {
