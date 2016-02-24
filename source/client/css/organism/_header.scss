@@ -29,9 +29,9 @@ $header-bg: (
   }
   &.header--home {
     text-align: center;
-    height: 342px;
+    height: 400px;
     @include respond-to-larger-than-tablet {
-      height: 440px;
+      height: 480px;
     }
   }
 }
