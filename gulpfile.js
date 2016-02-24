@@ -85,11 +85,18 @@ gulp.task('default', () => {
     // }))
     .pipe(gulp.dest('public/img/header-bg'));
 
+  const welcome_bg = gulp.src('source/client/img/welcome-page/welcome-bg.jpg')
+    .pipe(imageResize({
+      width: 1980,
+    }))
+    .pipe(gulp.dest('public/img/welcome-page'));
+
   return es.merge(
     es.merge(x1_200, x2_200, x1_300, x2_300).pipe(gulp.dest('public/img')),
     es.merge(cim_x1_600, cim_x2_600).pipe(gulp.dest('public/img/cim-img')),
     gulp.src('source/client/img/misc/**/*.{png,jpg,jpeg}').pipe(gulp.dest('public/img/misc')),
     logo,
-    header_bg
+    header_bg,
+    welcome_bg
   ).pipe(print());
 });

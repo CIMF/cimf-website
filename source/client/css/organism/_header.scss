@@ -16,24 +16,35 @@ $header-bg: (
   overflow: hidden;
   color: white;
   padding-top: 100px;
+
+  &.header--welcome {
+    background: url(http://static.cimfusa.com/img/welcome-page/welcome-bg.jpg) center center / cover no-repeat black;
+    text-align: center;
+    height: 100vh;
+  }
+
   @each $name, $url in $header-bg {
     &.header--#{$name} {
       background: url(#{$url}) center center / cover no-repeat black;
     }
   }
-  &.header--faculty-detail {
-    background: url(map-get($header-bg, 'faculty')) center center / cover no-repeat black;
-  }
+
   @include respond-to-larger-than-tablet {
     height: 380px;
   }
+
+  &.header--faculty-detail {
+    background: url(map-get($header-bg, 'faculty')) center center / cover no-repeat black;
+  }
+
   &.header--home {
     text-align: center;
-    height: 342px;
+    height: 400px;
     @include respond-to-larger-than-tablet {
-      height: 440px;
+      height: 480px;
     }
   }
+
 }
 
 .header__v-pos {
@@ -59,6 +70,7 @@ $header-bg: (
 }
 
 .header__title {
+  .header--welcome &,
   .header--home & {
     font-size: 3rem;
     margin-bottom: 26px;
@@ -67,4 +79,9 @@ $header-bg: (
       margin-bottom: 36px;
     }
   }
+}
+
+.header__nav {
+  margin: 0 auto;
+  font-size: 2rem;
 }

@@ -1,0 +1,71 @@
+<% include ./_head.ejs %>
+<% include ./_navbar.ejs %>
+
+<header class="header header--<%= page_name %>">
+  <div class="header__v-pos">
+    <div class="header__inner">
+      <picture>
+        <source media="(min-width: 750px)" srcset="http://static.cimfusa.com/img/misc/festival-w307-h100.png 2x">
+        <source srcset="http://static.cimfusa.com/img/misc/festival-w200-h65.png 2x">
+        <img class="header__logo" alt="<%= i18n.__('Cleveland International Music Festival logo') %>"/>
+      </picture>
+      <h1 class="header__title"><%= i18n.__('Cleveland International Music Festival') %></h1>
+      <a class="a-call-to-action a-call-to-action--white" href="/en/apply"><%= i18n.__('Apply Now') %></a>
+    </div>
+  </div>
+</header>
+
+<article class="article article--<%= page_name %>">
+  <section class="row">
+    <p>
+      The 1st Cleveland International Music Festival will be held from July 29th, 2016 to August 6th, 2016 in Cleveland, Ohio. World-famous music maestros and eminent music educators will offer young pianists, string players and singers individual professional instruction. Cleveland is a city with abundant musical resources, and we, the organizers, with professionalism and precision, aim to cultivate the Cleveland International Music Festival as one of the most influential music festivals internationally. We are providing:
+    </p>
+    <ul>
+      <li>a platform for musicians and music educators from China and around the world to interact and communicate</li>
+      <li>an impetus for younger generation of musicians to enhance and perfect their musicianship and techniques</li>
+      <li>a route for these future stars to seek further study in the United States. </li>
+    </ul>
+    <hr>
+    <div class="home__important-date">
+      <h5><strong>Important Dates:</strong></h5>
+      <ul>
+        <li><strong>Cleveland International Music Festival:</strong> July 29th to August 6th, 2016</li>
+        <li><strong>Application Deadline:</strong> May 30th, 2016</li>
+        <li><strong>Tuition Deadline:</strong> June 15th, 2016</li>
+      </ul>
+    </div>
+    <h5><strong>Artistic Advisers:</strong></h5>
+    <ul>
+      <li>Kathryn Brown</li>
+      <li>HaeSun Paik</li>
+      <li>Dean Southern</li>
+    </ul>
+  </section>
+  <section class="row">
+    <h5><strong>Cleveland Institute of Music</strong></h5>
+    <p>The Cleveland Institute of Music is a world-class music conservatory located in Cleveland, Ohio, United States. CIM graduates play important musical roles in our world as composers producing meaningful new repertoire, as eminent instrumental and vocal soloist, as world-renowned chamber musicians and as members of premier orchestras around the globe. <a href="/en/cim">learn more…</a></p>
+    <p>
+      <img class="home__school-img" srcset="http://static.cimfusa.com/img/cim-img/cim-front-entrance@1x.jpg 1x, http://static.cimfusa.com/img/cim-img/cim-front-entrance@2x.jpg 2x" alt="" />
+      <img class="home__school-img" srcset="http://static.cimfusa.com/img/cim-img/mixon-hall-03@1x.jpg 1x, http://static.cimfusa.com/img/cim-img/mixon-hall-03@2x.jpg 2x" alt="" />
+      <img class="home__school-img" srcset="http://static.cimfusa.com/img/cim-img/mixon-hall-01@1x.jpg 1x, http://static.cimfusa.com/img/cim-img/mixon-hall-01@2x.jpg 2x" alt="" />
+      <img class="home__school-img home__school-img--desktop" src="http://static.cimfusa.com/img/misc/home-school.jpg" alt="the school" />
+    </p>
+  </section>
+  <section class="home__attribution row">
+    <div class="home__attribution-left">
+      <h5><strong>Host:</strong></h5>
+      <div><img src="http://static.cimfusa.com/img/logo/mousa-logo.png" alt="Mousa Logo"><p>Mousa International Cultural Communication</p></div>
+      <h5><strong>Venue:</strong></h5>
+      <div><img src="http://static.cimfusa.com/img/logo/cim-logo.jpg" alt="CIM Logo"><p>Cleveland Institute of Music</p></div>
+      <div><img src="http://static.cimfusa.com/img/logo/case-logo.jpg" alt="Case logo"><p>Case Western Reserve University</p></div>
+    </div>
+    <div class="home__attribution-right">
+      <p><a href="http://static.cimfusa.com/pdf/cimf-brochure-en.pdf"><strong>Click here to download the CIMF brochure (PDF)</strong></a></p>
+      <p><img class="home__attribution-img" srcset="/img/cim-img/cim-students@1x.jpg 1x,/img/cim-img/cim-students@2x.jpg 2x" alt="CIM Students"></p>
+    </div>
+  </section>
+
+  <a class="a-call-to-action" href="/en/apply"><%= i18n.__('Apply Now') %></a>
+</article>
+
+<% include ./_foot.ejs %>
