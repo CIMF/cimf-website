@@ -19,5 +19,5 @@
 	"Contact": "联系我们",
 	"Cleveland International Music Festival": "克利夫兰国际音乐节",
 	"Apply Now": "立即申请",
-	"Cleveland International Music Festival logo": "克利夫兰国际音乐节标志",
+	"Cleveland International Music Festival logo": "克利夫兰国际音乐节标志"
 }
