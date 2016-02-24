@@ -25,9 +25,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 const rootRouter = (0, _koaRouter2.default)();
 
 rootRouter.get('/', function* (next) {
-  this.redirect('/cn');
-  // Temporary disable /en
-  // yield this.render('index', {});
+  yield this.render('index', {});
 });
 
 rootRouter.post('/submit-form', _submitForm2.default);
@@ -39,7 +37,7 @@ contentRouter.get('/', function* (next) {
     page_name: 'home'
   };
 
-  yield this.render('home', locals);
+  yield this.render(`home-${ this.basePath }`, locals);
 });
 
 contentRouter.get('/contact', function* () {
