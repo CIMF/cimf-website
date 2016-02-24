@@ -27,6 +27,10 @@ ul {
   padding-left: 30px;
 }
 
+td {
+  border-bottom: none;
+}
+
 .clearfix:after {
   content:" ";
   display:block;
