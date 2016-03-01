@@ -4,7 +4,7 @@ page_title: CIM
 
 ##### School Website: [www.cim.edu](https://www.cim.edu)
 
-###### Cleveland Institute of Music
+#### Cleveland Institute of Music
 
 The Cleveland Institute of Music is a world-class music conservatory located in Cleveland, Ohio, United States. CIM graduates play important musical roles in our world as composers producing meaningful new repertoire, as eminent instrumental and vocal soloist, as world-renowned chamber musicians and as members of premier orchestras around the globe. The mission of the
 Cleveland Institute of Music is to cultivate new generations of young musicians through an immersive and creative educational process, guiding the most musically talented individuals towards fulfilling careers that engage diverse and global audiences, stimulating the understanding and love of music throughout the world.
