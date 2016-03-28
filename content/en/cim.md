@@ -11,7 +11,7 @@ Cleveland Institute of Music is to cultivate new generations of young musicians 
 
 CIM has assembled a dedicated faculty of international acclaim committed to leading students to the highest professional standards. These practicing artists/teachers pass on a wealth of knowledge and wisdom to their students.
 
-CIM has cultivated many major international music competition winners, world-famous musicians and students who are members of nearly all major orchestras throughout the world. Notable alumni include Jinjoo Cho, Frank Huang, David Requiro and Daniil Trifonov.
+CIM has cultivated many major international music competition winners, world-famous musicians and students who are members of nearly all major orchestras throughout the world. Notable alumni include Frank Huang, David Requiro and Daniil Trifonov.
 
 
 ![CIM Front Entrance](/img/cim-img/cim-front-entrance.jpg)
