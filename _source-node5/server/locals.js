@@ -33,6 +33,6 @@ exports.default = (0, _co.wrap)(function* (fpath) {
   const md = yield (0, _fs.readFile)((0, _path.join)(__dirname, '../../content', fpath), 'utf8');
   const article = processor.process(md, { gfm: true });
   const config = (0, _jsYaml.safeLoad)(parser.parse(md).children[0].value);
-  return { config, article };
+  return { config: config, article: article };
 });
 //# sourceMappingURL=locals.js.map
