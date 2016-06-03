@@ -76,8 +76,8 @@ app.use(function* (next) {
   this.state = {
     i18n: this.i18n,
     basePath: this.basePath,
-    navigations,
-    CDN
+    navigations: navigations,
+    CDN: CDN
   };
 
   yield next;
