@@ -1,8 +1,7 @@
 {
-  "name": "cimf-website",
+  "name": "update-content",
   "description": "",
-  "scripts": {
-  },
+  "scripts": {},
   "env": {
     "MAILGUN_API_KEY": {
       "required": true
@@ -16,9 +15,7 @@
       "quantity": 1
     }
   },
-  "addons": [
-
-  ],
+  "addons": [],
   "buildpacks": [
     {
       "url": "heroku/nodejs"
